@@ -32,3 +32,25 @@ Ensure you have the following installed:
    pip install pandas scikit-learn
    ```
 4. Ensure the `iris.csv` dataset is available in the project directory.
+
+## Usage
+1. run the script:
+```
+python knn_iris_classifier.py
+```
+2. Enter the number of neighbors (`k`) when prompted.
+3. View the model's accuracy in the console.
+4. Input `sepal.length` and `petal.length` to predict the species.
+
+
+## Notes
+- ensure the input for predictions is numeric and follows the correct format(value1, value2)
+- modify the dataset loading path in the script if necessary.
+
+
+## License
+the project is licensed under the mit License.
+
+
+## Author
+Developed by sanghunchoi
